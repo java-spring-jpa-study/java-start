@@ -1,13 +1,19 @@
 package loop;
 
-public class While2_1 {
+public class While2_2 {
     public static void main(String[] args) {
-        int count = 1;
         int sum = 0;
-        while (count <= 3) {
-            sum = sum + count;
-            count = count + 1;
-        }
-        System.out.println(sum);
+        int i = 1;
+
+        sum = sum + i;
+        System.out.println("i=" + i + " sum=" + sum);
+        i++;
+
+        sum = sum + i;
+        System.out.println("i=" + i + " sum=" + sum);
+        i++;
+
+        sum = sum + i;
+        System.out.println("i=" + i + " sum=" + sum);
     }
 }
